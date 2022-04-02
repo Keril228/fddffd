@@ -137,8 +137,7 @@ nos_6=[0,0,0,0,0,0,0,
         stup,stup,stup,stup,stup,stup,stup]
 
 #низ корабля 11
-for i in range(4):
-    mc.setBlocks(x+11,y-i-1,z+i,x+25-i,y-i-1,z+i+12,d_o)
+
 #нос корабля
 nose(nos_1,5)
 nose(nos_2,4)
